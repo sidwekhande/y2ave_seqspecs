@@ -91,7 +91,7 @@ library_spec:
     min_len: 8
     max_len: 8
     onlist: !Onlist
-      filename: barcode-23_onlist.txt
+      filename: barcode-1_onlist_v2.txt
       md5: 5c3b70034e9cef5de735dc9d4f3fdbde
       location: local
     regions: null
@@ -102,8 +102,8 @@ library_spec:
     name: linker-1
     sequence_type: fixed
     sequence: GTGGCCGATGTTTCGCATCGGCGTACGACT
-    min_len: 30
-    max_len: 30
+    min_len: 22
+    max_len: 22
     onlist: null
     regions: null
     parent_id: rna
@@ -127,8 +127,8 @@ library_spec:
     name: linker-3
     sequence_type: fixed
     sequence: ATCCACGTGCTTGAGACTGTGG
-    min_len: 22
-    max_len: 22
+    min_len: 30
+    max_len: 30
     onlist: null
     regions: null
     parent_id: rna
@@ -141,7 +141,7 @@ library_spec:
     min_len: 8
     max_len: 8
     onlist: !Onlist
-      filename: barcode-1_onlist_v2.txt
+      filename: barcode-23_onlist.txt
       md5: 1452e8ef104e6edf686fab8956172072
       location: local
     regions: null
